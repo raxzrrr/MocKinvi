@@ -139,6 +139,14 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
+
+        {/* Credits Section */}
+        <div className="mt-20 text-center">
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">Credits</h2>
+          <p className="text-lg text-muted-foreground">
+            Developed and designed by <span className="font-semibold">Mohit Sherkhane</span>, <span className="font-semibold">Sameer Mansur</span>, and <span className="font-semibold">Atharva Jeevannavar</span>.
+          </p>
+        </div>
       </div>
     </MainLayout>
   );
