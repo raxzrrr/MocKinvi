@@ -1,15 +1,15 @@
-
-# Interview Genius - AI-Powered Interview Preparation
+# MockInvi – AI-Powered Interview Preparation
 
 ## Project Overview
 
-Interview Genius is an AI-powered platform designed to help you master your interview skills. Upload your resume, practice with personalized questions, and receive real-time feedback on your performance.
+MockInvi is an AI-powered platform designed to help you master interviews. Upload your resume, practice with personalized questions, and receive real-time feedback with a modern macOS/iOS-inspired glassmorphic UI. It includes an AI Resume Maker, Learning Hub with assessments, certificates, and an admin area.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js & npm installed – [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- GitHub CLI (optional) – `https://cli.github.com/`
 
 ### Installation
 
@@ -43,53 +43,17 @@ This project is built with:
 
 ## Features
 
-- AI-powered interview question generation
-- Resume analysis and feedback
-- Real-time voice-to-text interview practice
-- Facial expression analysis during interviews
-- Comprehensive performance reports
-- Learning modules and assessments
-- Certificate generation
+- AI-powered interview question generation (role-based and resume-based)
+- Resume analysis and AI Resume Maker (PDF + DOCX export, live preview, templates)
+- Real-time voice-to-text interview practice (Web Speech API)
+- Face presence guard (non-blocking) during interviews
+- Comprehensive performance reports and trend analytics
+- Learning modules with assessments and certificates
+- Certificate preview/download with branded template
 - Admin dashboard for content management
+- Light/Dark mode with system preference support
+- Smooth 120Hz-friendly animations and glassmorphic UI
 
 ## Environment Variables
 
-Create a `.env` file in the root directory and add your environment variables:
-
-```
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key_here
-VITE_GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-## Project Structure
-
-```
-src/
-├── components/          # Reusable UI components
-├── pages/              # Application pages
-├── contexts/           # React contexts
-├── hooks/              # Custom React hooks
-├── services/           # API and external service integrations
-├── utils/              # Utility functions
-└── integrations/       # Third-party integrations
-```
-
-## Deployment
-
-The application can be deployed to any static hosting service such as:
-- Vercel
-- Netlify
-- GitHub Pages
-- AWS S3 + CloudFront
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+Create a `.env` (or `.env.local`) file in the root directory and add your environment variables:
